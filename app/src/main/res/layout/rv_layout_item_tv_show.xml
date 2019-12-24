@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginBottom="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv_tvshow_poster"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+
+        android:src="@drawable/poster_a_start_is_born"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_tvshow_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="tvshow Title"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_tvshow_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Year"
+            android:textSize="14sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Popularity : "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_tvshow_popularity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="73"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_tvshow_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:maxLines="3"
+            android:ellipsize="end"
+            />
+
+    </LinearLayout>
+    
+</LinearLayout>

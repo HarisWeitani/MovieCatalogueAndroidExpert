@@ -1,0 +1,2 @@
+include ':app', ':favoritereceiver'
+rootProject.name='MovieCatalogueSub2'
